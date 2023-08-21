@@ -702,6 +702,7 @@ body {
     font-size: 45px;
     font-weight: 700;
     margin: 0 0 60px 0;
+    letter-spacing: -0.25px;
 }
 
 .mainContact .mc_tit p {
@@ -777,7 +778,7 @@ body {
 
 .Footer {
     border-top: 1px solid #d7d5d5;
-    padding: 50px;
+    padding: 50px 0 80px 0;
     color: #404040;
 }
 
@@ -1023,13 +1024,13 @@ body {
         display: block;
         flex-direction: column;
         position: fixed;
-        top: 50%;
+        top: 250px;
         left: 30px;
-        transform: translate(0, -50%);
+        transform: translate(0, 0);
     }
 
     .Header.on .Gnb ul>li a {
-        font-size: 45px;
+        font-size: 40px;
         transition: 0.35s;
         padding-right: 20px;
     }
@@ -1037,6 +1038,7 @@ body {
     .Header.on .Gnb ul>li a::before {
         left: 100%;
         top: 50%;
+        transform: translate(0, -50%);
         width: 20px;
         height: 7px;
     }
@@ -1051,7 +1053,7 @@ body {
 /* 지도섹션 */
 @media (max-width: 768px) {
     .mainContact {
-        padding: 50px 0;
+        padding: 100px 0;
     }
 
     .mainContact .inner {
@@ -1065,7 +1067,7 @@ body {
     }
 
     .mainContact .mc_tit strong {
-        font-size: 35px;
+        font-size: 30px;
         margin: 0 0 30px 0;
     }
 
@@ -1110,7 +1112,7 @@ body {
 /* 텍스트크로싱 */
 @media (max-width: 768px) {
     .mainCrossing {
-        padding: 50px 0;
+        padding: 100px 0;
         overflow-x: hidden;
     }
 
@@ -1127,8 +1129,8 @@ body {
 @media (max-width: 768px) {
     .mainBrand {
         overflow-x: hidden;
-        padding: 50px 0;
-        background: linear-gradient(to bottom, #fff calc(100% - 50px), #f5f5f5 50px);
+        padding: 100px 0;
+        background: linear-gradient(to bottom, #fff calc(100% - 100px), #f5f5f5 50px);
     }
 
     .mainBrand .title {
@@ -1139,13 +1141,17 @@ body {
 
 
     .mainBrand .title strong {
-        font-size: 35px;
+        font-size: 30px;
         margin: 0 0 30px 0;
     }
 
     .mainBrand .title p {
         font-size: 15px;
         line-height: 1.4;
+    }
+
+    .mainBrand .brand_slide {
+        min-height: 700px;
     }
 
     .mainBrand .brand_slide .swiper-wrapper .box {
@@ -1188,7 +1194,7 @@ body {
 
     .mainBrand .br_txt {
         width: 80%;
-        top: 45%;
+        top: 200px;
         transform: translate(-50%, 0);
         margin: 0 0;
     }
@@ -1201,7 +1207,7 @@ body {
     }
 
     .mainBrand .br_txt h3 {
-        font-size: 35px;
+        font-size: 24px;
         margin: 0 0 30px 0;
     }
 
@@ -1231,7 +1237,7 @@ body {
 
     .mainBrand .brand_list {
         position: absolute;
-        bottom: 120px;
+        bottom: 150px;
         left: 50%;
         transform: translate(-50%, 0);
         z-index: 3;
@@ -1258,6 +1264,7 @@ body {
         display: none;
     }
 
+
     .Footer .top {
         align-items: flex-start;
     }
@@ -1280,7 +1287,7 @@ body {
 /* 섹션1 */
 @media (max-width: 768px) {
     .mainAbout {
-        padding: 50px 0;
+        padding: 100px 0;
     }
 
     .mainAbout .about_container {
@@ -1290,7 +1297,7 @@ body {
     }
 
     .mainAbout .left_tit strong {
-        font-size: 35px;
+        font-size: 30px;
         margin: 0 0 30px 0;
     }
 
@@ -1354,7 +1361,7 @@ body {
     }
 
     .mainVisual .slide_text h2 {
-        font-size: 35px;
+        font-size: 30px;
         margin: 0 0 30px 0;
         gap: 10px;
     }

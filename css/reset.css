@@ -35,6 +35,7 @@ p {
 body {
     line-height: 1;
     color: #131313;
+    word-break: keep-all;
 }
 
 em,
