@@ -65,7 +65,6 @@ body {
     top: 50%;
     left: calc((100% - 1200px)/2 + 15px);
     transform: translate(0, -50%);
-    font-size: 80px;
 }
 
 .Header .Gnb ul>li a {
@@ -993,10 +992,7 @@ body {
 @media (max-width: 768px) {
     .Header.on {
         position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
+        inset: 0 0 0 0;
         background: #fff;
     }
 
@@ -1033,6 +1029,8 @@ body {
         font-size: 40px;
         transition: 0.35s;
         padding-right: 20px;
+        line-height: 60px;
+        font-weight: 900;
     }
 
     .Header.on .Gnb ul>li a::before {
@@ -1069,6 +1067,8 @@ body {
     .mainContact .mc_tit strong {
         font-size: 30px;
         margin: 0 0 30px 0;
+        gap: 0;
+        line-height: 36px;
     }
 
     .mainContact .mc_tit p {
@@ -1112,7 +1112,7 @@ body {
 /* 텍스트크로싱 */
 @media (max-width: 768px) {
     .mainCrossing {
-        padding: 100px 0;
+        padding: 80px 0;
         overflow-x: hidden;
     }
 
@@ -1193,28 +1193,29 @@ body {
     }
 
     .mainBrand .br_txt {
-        width: 80%;
+        width: 100%;
         top: 200px;
         transform: translate(-50%, 0);
+        padding: 30px;
         margin: 0 0;
     }
 
     .mainBrand .br_txt strong {
         font-weight: 700;
         font-size: 14px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         margin: 0 0 20px 0;
     }
 
     .mainBrand .br_txt h3 {
-        font-size: 24px;
+        font-size: 28px;
         margin: 0 0 30px 0;
     }
 
     .mainBrand .br_txt p {
         font-size: 15px;
         line-height: 1.4;
-        margin: 0 0 15px 0;
+        margin: 0 0 30px 0;
     }
 
     .mainBrand .br_txt a {
@@ -1267,6 +1268,7 @@ body {
 
     .Footer .top {
         align-items: flex-start;
+        margin: 0 0 40px 0;
     }
 
     .Footer .top .customer {
@@ -1280,6 +1282,19 @@ body {
 
     .Footer .top .f_link {
         flex-direction: column;
+    }
+
+    .Footer .bottom .address li {
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+    .Footer .bottom .address li:nth-child(4) {
+        margin: 0 0 20px 0;
+    }
+
+    .Footer .copy {
+        font-size: 14px;
     }
 
 }
@@ -1339,15 +1354,15 @@ body {
     }
 
     .main_slide .itm01 {
-        background: url(../images/bg01.jpg)no-repeat 71% center/cover;
+        background: url(../images/bg01.jpg)no-repeat 70% center/cover;
     }
 
     .main_slide .itm02 {
-        background: url(../images/bg02.jpg)no-repeat 71% center/cover;
+        background: url(../images/bg02.jpg)no-repeat 70% center/cover;
     }
 
     .main_slide .itm03 {
-        background: url(../images/bg03.jpg)no-repeat 71% center/cover;
+        background: url(../images/bg03.jpg)no-repeat 70% center/cover;
     }
 
     .mainVisual .slide_text {
