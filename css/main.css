@@ -1051,7 +1051,7 @@ body {
 /* 지도섹션 */
 @media (max-width: 768px) {
     .mainContact {
-        padding: 100px 0;
+        padding: 80px 0;
     }
 
     .mainContact .inner {
@@ -1129,8 +1129,8 @@ body {
 @media (max-width: 768px) {
     .mainBrand {
         overflow-x: hidden;
-        padding: 100px 0;
-        background: linear-gradient(to bottom, #fff calc(100% - 100px), #f5f5f5 50px);
+        padding: 80px 0;
+        background: linear-gradient(to bottom, #fff calc(100% - 80px), #f5f5f5 50px);
     }
 
     .mainBrand .title {
@@ -1194,9 +1194,10 @@ body {
 
     .mainBrand .br_txt {
         width: 100%;
-        top: 200px;
+        top: inherit;
+        bottom: 120px;
         transform: translate(-50%, 0);
-        padding: 30px;
+        padding: 0 40px;
         margin: 0 0;
     }
 
@@ -1213,8 +1214,8 @@ body {
     }
 
     .mainBrand .br_txt p {
-        font-size: 15px;
-        line-height: 1.4;
+        font-size: 14px;
+        line-height: 18px;
         margin: 0 0 30px 0;
     }
 
@@ -1252,8 +1253,8 @@ body {
         font-size: 0;
         background: #fff;
         position: relative;
-        width: 30px;
-        height: 4px;
+        width: 20px;
+        height: 3px;
         padding: 0 0;
         opacity: 0.45;
         transition: 0.5s;
@@ -1302,7 +1303,7 @@ body {
 /* 섹션1 */
 @media (max-width: 768px) {
     .mainAbout {
-        padding: 100px 0;
+        padding: 80px 0;
     }
 
     .mainAbout .about_container {
